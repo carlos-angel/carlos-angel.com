@@ -25,5 +25,6 @@ module.exports = {
     'react/jsx-filename-extension': 'off',
     'react/react-in-jsx-scope': 'off',
     'react/function-component-definition': 'off',
+    'import/extensions': 'off',
   },
 };
