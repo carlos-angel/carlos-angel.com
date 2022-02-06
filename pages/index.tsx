@@ -1,5 +1,8 @@
 import type { NextPage } from 'next';
+import Navbar from 'components/Header/Navbar';
 
-const Home: NextPage = () => <h1 className="text-3xl font-bold underline"> carlos-angel.com </h1>;
+const Home: NextPage = () => (
+  <Navbar />
+);
 
 export default Home;
