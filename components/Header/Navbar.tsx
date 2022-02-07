@@ -4,7 +4,7 @@ import { FaRegMoon } from 'react-icons/fa';
 
 function Navbar() {
   return (
-    <nav className="bg-slate-50 shadow-md w-full h-14 flex justify-between items-center px-6 font-semibold text-base text-slate-700 fixed z-10">
+    <nav className="fixed z-10 hidden w-full px-6 text-base font-semibold shadow-md bg-slate-50 h-14 md:flex md:justify-between md:items-center text-slate-700">
       <section>
         <Link href="/">carlos-angel.com</Link>
       </section>
