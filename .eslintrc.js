@@ -26,5 +26,7 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     'react/function-component-definition': 'off',
     'import/extensions': 'off',
+    'jsx-a11y/anchor-is-valid': 'off',
+    'react/require-default-props': 'off',
   },
 };
